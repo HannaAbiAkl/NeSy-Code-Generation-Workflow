@@ -1,0 +1,421 @@
+Line of Code,Comment,Class
+int randomNumber = rand() % 100 + 1;," ""Generate a random number between 1 and 100.""", Useful
+int length = strlen(inputString);," ""Get the length of the input string.""", Useful
+for (int i = 0; i < 10; i++) {," ""Loop from 0 to 9.""", Useful
+"printf(%d "", i);"""," ""Print the current value of i.""", Useful
+"char name[20] = ""John Smith"";"," ""Declare and initialize a character array to store a name.""", Useful
+int result = num1 + num2;," ""Calculate the sum of two numbers.""", Useful
+if (score >= passingScore) {," ""Check if the score is equal to or greater than the passing score.""", Useful
+"printf(""Passed!"");"," ""Print a message indicating that the student passed.""", Useful
+int factorial = 1;," ""Initialize a variable to store the factorial value.""", Useful
+"int x = 5, y = 10;"," ""Declare and initialize two integer variables.""", Useful
+while (count < maxCount) {," ""Execute the loop while the count is less than the maximum count.""", Useful
+"printf(""%d "", count);"," ""Print the current value of count.""", Useful
+count++;," ""Increment the count by 1.""", Useful
+double area = 0.5 * base * height;," ""Calculate the area of a triangle.""", Useful
+int sum = 0;," ""Initialize a variable to store the sum of array elements.""", Useful
+if (number % 2 == 0) {," ""Check if the number is even.""", Useful
+"printf(""Even number."");"," ""Print a message for even numbers.""", Useful
+char ch = getchar();," ""Read a character from the standard input.""", Useful
+for (int i = 0; i < size; i++) {," ""Loop through an array and process its elements.""", Useful
+array[i] *= 2;," ""Double the value of each element.""", Useful
+int squared = num * num;," ""Calculate the square of a number.""", Useful
+int randomNumber = rand() % 1000;," ""Generate a random number between 0 and 999.""", Useful
+double average = (double)(sum) / count;," ""Calculate the average of a set of numbers.""", Useful
+"int index = findIndex(array, size, target);"," ""Find the index of a target element in an array.""", Useful
+for (int i = 1; i <= n; i++) {," ""Loop from 1 to n (inclusive).""", Useful
+factorial *= i;," ""Calculate the factorial of n.""", Useful
+"strcpy(destString, srcString);"," ""Copy the contents of one string to another.""", Useful
+int max = (num1 > num2) ? num1 : num2;," ""Determine the maximum of two numbers.""", Useful
+float circumference = 2 * pi * radius;," ""Calculate the circumference of a circle.""", Useful
+"int positiveCount = countPositiveNumbers(array, size);"," ""Count the positive numbers in an array.""", Useful
+while (num != 0) {," ""Execute the loop until num becomes 0.""", Useful
+sum += num % 10;," ""Add the last digit of num to the sum.""", Useful
+num /= 10;," ""Remove the last digit of num.""", Useful
+int randomNumber = 100 + rand() % 901;," ""Generate a random number between 100 and 1000.""", Useful
+if (score >= 90) {," ""Check if the score is equal to or greater than 90.""", Useful
+"printf(""Grade: A"");"," ""Print the corresponding grade.""", Useful
+} else if (score >= 80) {," ""Random comment that does not match the code.""", Not Useful
+"printf(""Grade: B"");"," ""Print the corresponding grade.""", Useful
+} else if (score >= 70) {," ""Another random comment not related to the code.""", Not Useful
+"printf(""Grade: C"");"," ""Print the corresponding grade.""", Useful
+} else {," ""Some comment that doesn't make sense here.""", Not Useful
+"printf(""Grade: F"");"," ""Print the corresponding grade.""", Useful
+}," ""Yet another unrelated comment.""", Not Useful
+"int min = findMin(array, size);"," ""Find the minimum value in an array.""", Useful
+float average = (float)sum / count;," ""Calculate the average of a set of numbers.""", Useful
+if (isPrime(number)) {," ""Check if the number is prime.""", Useful
+"printf(""Prime number."");"," ""Print a message for prime numbers.""", Useful
+}," ""This comment does not match the code.""", Not Useful
+int sum = 0;," ""Initialize a variable to store the sum of a sequence of numbers.""", Useful
+for (int i = 1; i <= n; i++) {," ""Loop through the numbers from 1 to n.""", Useful
+sum += i;," ""Add the current number to the sum.""", Useful
+}," ""Another irrelevant comment.""", Not Useful
+"int num1 = 20, num2 = 30;"," ""Initialize two variables with values 20 and 30.""", Useful
+double area = radius * radius * pi;," ""Calculate the area of a circle.""", Useful
+for (int i = 1; i <= 100; i++) {," ""Loop from 1 to 100 (inclusive).""", Useful
+"printf(""Iteration: %d\n"", i);"," ""Print the current iteration number.""", Useful
+char str[50];," ""Declare a character array with a size of 50.""", Useful
+"scanf(""%s"", str);"," ""Read a string input from the user.""", Useful
+if (num < 0) {," ""Check if the number is negative.""", Useful
+"printf(""Negative number."");"," ""Print a message for negative numbers.""", Useful
+} else {," ""Print a different message for positive numbers.""", Useful
+"printf(""Positive number."");"," ""Another message for positive numbers.""", Useful
+}," ""End of the if-else block.""", Useful
+"int sum = addNumbers(10, 20);"," ""Call a function to add two numbers and store the result in sum.""", Useful
+double volume = calculateVolume(radius);," ""Calculate the volume of a sphere with the given radius.""", Useful
+while (i <= n) {," ""Execute the loop while i is less than or equal to n.""", Useful
+sum += i; i++;," ""Add the value of i to the sum and increment i by 1.""", Useful
+"int randomNumber = generateRandomNumber(1, 1000);"," ""Generate a random number between 1 and 1000.""", Useful
+"float result = divideNumbers(50.0, 2.5);"," ""Divide two floating-point numbers and store the result in result.""", Useful
+"int index = findIndex(array, size, value);"," ""Find the index of a value in an array.""", Useful
+if (array[i] == value) {," ""Check if the current element is equal to the value.""", Useful
+"printf(""Value found at index %d\n"", i);"," ""Print the index where the value is found.""", Useful
+break;," ""Exit the loop early.""", Useful
+}," ""End of the if statement.""", Useful
+int length = strlen(name);," ""Get the length of a string named name.""", Useful
+char ch = 'A';," ""Declare a character variable with the value 'A'.""", Useful
+int square = num * num;," ""Calculate the square of a number.""", Useful
+if (x == y) {," ""Check if the values of x and y are equal.""", Useful
+"printf(""x and y are equal."");"," ""Print a message indicating that x and y are equal.""", Useful
+} else {," ""Print a different message if x and y are not equal.""", Useful
+"printf(""x and y are not equal."");"," ""Another message for when x and y are not equal.""", Useful
+"float average = calculateAverage(values, size);"," ""Calculate the average of an array of values.""", Useful
+for (int i = 1; i <= 5; i++) {," ""Loop from 1 to 5 (inclusive).""", Useful
+"printf(""Count: %d\n"", i);"," ""Print the current value of i.""", Useful
+"int largest = findLargestNumber(values, size);"," ""Find the largest number in an array.""", Useful
+"int product = multiplyNumbers(10, 5);"," ""Multiply two numbers and store the result in product.""", Useful
+"int index = binarySearch(sortedArray, size, target);"," ""Perform a binary search on a sorted array.""", Useful
+char letter = getchar();," ""Read a character from the standard input.""", Useful
+int factorial = calculateFactorial(10);," ""Calculate the factorial of a number.""", Useful
+"printf(""Hello, World!\n"");"," ""Print the message 'Hello", Useful
+"int distance = calculateDistance(x1, y1, x2, y2);"," ""Calculate the distance between two points in 2D space.""", Useful
+"int max = getMaxValue(array, size);"," ""Find the maximum value in an array.""", Useful
+"int result = addNumbers(10, 20);"," ""Add two numbers and store the result in result.""", Useful
+"int index = linearSearch(array, size, target);"," ""Perform a linear search on an array to find a target value.""", Useful
+for (int i = 0; i < count; i++) {," ""Loop through an array with the size specified by count.""", Useful
+sum += values[i];," ""Add the current element to the sum.""", Useful
+}," ""End of the for loop.""", Useful
+int reversed = reverseNumber(number);," ""Reverse the digits of a number.""", Useful
+int num = abs(value);," ""Calculate the absolute value of a number.""", Useful
+"int randomNumber = generateRandomNumber(100, 1000);"," ""Generate a random number between 100 and 1000.""", Useful
+"int count = countOccurrences(array, size, target);"," ""Count the occurrences of a target value in an array.""", Useful
+int remainder = num % 2;," ""Calculate the remainder when dividing num by 2.""", Useful
+if (remainder == 0) {," ""Check if the remainder is equal to 0.""", Useful
+} else {," ""Print a different message for odd numbers.""", Useful
+"printf(""Odd number."");"," ""Another message for odd numbers.""", Useful
+"int index = findSmallestNumber(values, size);"," ""Find the smallest number in an array.""", Useful
+"float result = divideNumbers(10.0, 3.0);"," ""Divide two floating-point numbers and store the result in result.""", Useful
+"int max = maximum(num1, num2);"," ""Find the maximum of two numbers.""", Useful
+int count = countVowels(str);," ""Count the number of vowels in a string.""", Useful
+for (int i = 0; i < size; i++) {," ""Loop through an array of size elements.""", Useful
+sum += array[i];," ""Add the current element to the sum.""", Useful
+"int num1 = 50, num2 = 25;"," ""Initialize two variables with values 50 and 25.""", Useful
+"int result = subtractNumbers(100, 50);"," ""Subtract two numbers and store the result in result.""", Useful
+int sum = 0;," ""Initialize a variable to store the sum of elements.""", Useful
+for (int i = 0; i < n; i++) {," ""Loop from 0 to n-1 (inclusive).""", Useful
+"float area = calculateArea(base, height);"," ""Calculate the area of a triangle.""", Useful
+"int min = minimum(num1, num2);"," ""Find the minimum of two numbers.""", Useful
+"int max = findMax(array, size);"," ""Find the maximum value in an array.""", Useful
+"int sum = addValues(array, size);"," ""Add all the values in an array and store the result in sum.""", Useful
+int randomNumber = rand() % 100;," ""Generate a random number between 0 and 99.""", Useful
+int sum = calculateSum(5);," ""Calculate the sum of numbers from 1 to 5.""", Useful
+"float result = divideNumbers(20.0, 4.0);"," ""Divide two floating-point numbers and store the result in result.""", Useful
+"int max = getMaxValue(values, size);"," ""Find the maximum value in an array of values.""", Useful
+char ch = 'X';," ""Declare a character variable with the value 'X'.""", Useful
+"int sum = add(5, 10);"," ""Add two numbers using a custom function and store the result in sum.""", Useful
+"int index = findIndex(numbers, size, target);"," ""Find the index of a target value in an array.""", Useful
+int area = length * width;," ""Calculate the area of a rectangle.""", Useful
+int num = -10;," ""Declare a variable num with the value -10.""", Useful
+"float result = divideNumbers(8.0, 2.0);"," ""Divide two floating-point numbers and store the result in result.""", Useful
+"int count = countEvenNumbers(array, size);"," ""Count the number of even numbers in an array.""", Useful
+"int randomNumber = generateRandomNumber(0, 100);"," ""Generate a random number between 0 and 100.""", Useful
+int randomNumber = rand() % 50 + 1;," ""Generate a random number between 1 and 50.""", Useful
+"int result = multiplyNumbers(5, 10);"," ""Multiply two numbers and store the result in result.""", Useful
+float area = base * height * 0.5;," ""Calculate the area of a triangle.""", Useful
+int count = countDigits(number);," ""Count the number of digits in a number.""", Useful
+int sum = calculateSum(10);," ""Calculate the sum of numbers from 1 to 10.""", Useful
+"int max = findMaxValue(array, size);"," ""Find the maximum value in an array.""", Useful
+int randomNumber = rand() % 1000 + 1;," ""Generate a random number between 1 and 1000.""", Useful
+"float result = divideNumbers(12.0, 3.0);"," ""Divide two floating-point numbers and store the result in result.""", Useful
+"int count = countNegativeNumbers(array, size);"," ""Count the number of negative numbers in an array.""", Useful
+"int randomNumber = generateRandomNumber(10, 100);"," ""Generate a random number between 10 and 100.""", Useful
+int randomNumber = rand() % 10 + 1;," ""Generate a random number between 1 and 10.""", Useful
+"int result = addNumbers(8, 5);"," ""Add two numbers and store the result in result.""", Useful
+"int index = findIndexOfMax(array, size);"," ""Find the index of the maximum value in an array.""", Useful
+"int sum = addArrayElements(array, size);"," ""Add all the elements in an array and store the result in sum.""", Useful
+int length = strlen(str);," ""Get the length of a string named str.""", Useful
+float volume = calculateVolume(radius);," ""Calculate the volume of a sphere with the given radius.""", Useful
+if (array[i] == target) {," ""Check if the current element is equal to the target value.""", Useful
+"printf(""Target found at index %d\n"", i);"," ""Print the index where the target value is found.""", Useful
+break;," ""Exit the loop early if the target is found.""", Not Useful
+int length = strlen(string);," ""Get the length of a string named string.""", Useful
+}," ""We are done with the if-else block.""", Useful
+if (x == y) {," ""Check if the values of x and y are equal."" ", Useful
+"printf(""x and y are equal."");"," ""Print a message indicating that x and y are equal."" ", Useful
+}," ""End of the if-else block."" ", Useful
+"float average = calculateAverage(values, size);"," ""Calculate the average of an array of values."" ", Useful
+for (int i = 1; i <= 5; i,Print the current value of i.,Not Useful
+"int largest = findLargestNumber(values, size);"," ""Find the largest number in an array."" ", Useful
+"int product = multiplyNumbers(10, 5);"," ""Multiply two numbers and store the result in product."" ", Useful
+"int index = binarySearch(sortedArray, size, target);"," ""Perform a binary search on a sorted array."" ", Useful
+char letter = getchar();," ""Read a character from the standard input."" ", Useful
+int factorial = calculateFactorial(10);," ""Calculate the factorial of a number."" ", Useful
+"int distance = calculateDistance(x1, y1, x2, y2);"," ""Calculate the distance between two points in 2D space."" ", Useful
+"int max = getMaxValue(array, size);"," ""Find the maximum value in an array."" ", Useful
+"int result = addNumbers(10, 20);"," ""Add two numbers and store the result in result."" ", Useful
+"int index = linearSearch(array, size, target);"," ""Perform a linear search on an array to find a target value."" ", Useful
+for (int i = 0; i < size; i++) {," ""Loop through an array of size elements."" ", Useful
+if (array[i] == target) {," ""Check if the current element is equal to the target value."" ", Useful
+"printf(""Target found at index %d\n"", i);"," ""Print the index where the target value is found."" ", Useful
+break;," ""Exit the loop early if the target is found."" ", Useful
+}," ""End of the if statement."" ", Useful
+int length = strlen(string);," ""Get the length of a string named string."" ", Useful
+char ch = 'A';," ""Declare a character variable with the value 'A'."" ", Useful
+int square = num * num;," ""Calculate the square of a number."" ", Useful
+for (int i = 1; i <= 5; i++) {," ""Loop from 1 to 5 (inclusive)."" ", Useful
+"printf(""Count: %d\n"", i);"," ""Print the current value of i."" ", Useful
+for (int i =," ""Print the current value of i."" ", Useful
+for (int i =," ""Loop through an array of size elements."" ", Useful
+}," ""End of the if statement."" - Not Useful", Useful
+for (int i =," ""Loop from 1 to 5 (inclusive)."" ", Useful
+int distance =," ""Calculate the distance between two points in 2D space."" - Not Useful", Useful
+int index =," ""Perform a linear search on an array to find a target value."" - Not Useful", Useful
+for (int i =," ""Loop through an array of size elements."" - Not Useful", Useful
+for (int i = 0; i < size; i++) {," ""Loop through an array of size elements."" ""if (array[i] == target) {""", Useful
+if (array[i] == target) {," ""Check if the current target value is found.""", Useful
+"printf(""Target found at index %d\n"", i);"," ""Print the index where the target value is found element is equal to the target value.""", Useful
+"int x = 10;"""," ""Declare an integer variable x and initialize it with 10.""", Useful
+float y = 3.14;," ""Declare a floating-point variable y and initialize it with the value 3.14.""", Useful
+char ch = 'A';," ""Declare a character variable ch and assign it the value 'A'.""", Useful
+"int result = add(5, 7);"," ""Call the add function with arguments 5 and 7 and store the result in result.""", Useful
+if (x > 0) {," ""Check if the value of x is greater than 0.""", Useful
+"printf(""Hello, World!"");"," ""Print the message 'Hello", Useful
+for (int i = 0; i < 10; i++) {," ""Loop from 0 to 9 and execute the following block of code in each iteration.""", Useful
+while (x < 100) {," ""Repeat the code inside the loop as long as the value of x is less than 100.""", Useful
+int square = x * x;," ""Calculate the square of the variable x and store it in the square variable.""", Useful
+return 0;," ""Exit the function and return 0 as the result.""", Useful
+int age;," ""Declare an integer variable age without initializing it.""", Useful
+"scanf(""%d"", &age);"," ""Read an integer input from the user and store it in the age variable.""", Useful
+char grade = 'B';," ""Assign the character 'B' to the variable grade.""", Useful
+switch (day) {," ""Start of a switch statement based on the value of the variable day.""", Useful
+case 1:," ""Case 1 of the switch statement.""", Useful
+"printf(""Sunday"");"," ""Print the word 'Sunday' to the console.""", Useful
+break;," ""Exit the switch statement.""", Useful
+default:," ""Default case of the switch statement", Useful
+"printf(""Invalid day"");"," ""Print 'Invalid day' to the console.""", Useful
+int max = (a > b) ? a : b;," ""Find the maximum value between variables a and b and store it in max.""", Useful
+int sum = 0;," ""Declare an integer variable sum and initialize it with 0.""", Useful
+sum += num;," ""Add the value of the variable num to the sum variable.""", Useful
+const int SIZE = 10;," ""Declare a constant integer variable SIZE and initialize it with 10.""", Useful
+for (int i = 0; i < SIZE; i++) {," ""Loop through an array of size SIZE.""", Useful
+int temp = array[i];," ""Get the element at index i from the array and store it in the temp variable.""", Useful
+"printf(""Element %d: %d\n"", i, temp);"," ""Print the index and value of the element at index i.""", Useful
+int factorial = 1;," ""Declare an integer variable factorial and initialize it with 1.""", Useful
+for (int i = 1; i <= num; i++) {," ""Calculate the factorial of a number using a loop.""", Useful
+factorial *= i;," ""Multiply the factorial variable by the current value of i.""", Useful
+int remainder = num % 2;," ""Calculate the remainder when dividing num by 2 and store it in remainder.""", Useful
+if (remainder == 0) {," ""Check if the remainder is equal to 0", Useful
+"printf(""Even number"");"," ""Print 'Even number' to the console.""", Useful
+} else {," ""Start of the else block", Useful
+"printf(""Odd number"");"," ""Print 'Odd number' to the console.""", Useful
+},End of the if-else block., Not Useful
+int randomNumber = rand();," ""Generate a random number and store it in the randomNumber variable.""", Useful
+srand(time(NULL));," ""Seed the random number generator with the current time.""", Useful
+"int index = binarySearch(array, size, target);"," ""Perform a binary search on a sorted array to find the target value.""", Useful
+if (index != -1) {," ""Check if the binary search found the target value.""", Useful
+"printf(""Target found at index %d"", index);"," ""Print the index where the target value is found.""", Useful
+"printf(""Target not found"");"," ""Print 'Target not found' to the console.""", Useful
+"float average = calculateAverage(numbers, count);"," ""Calculate the average of an array of numbers.""", Useful
+"printf(""The average is: %.2f\n"", average);"," ""Print the average value to the console with two decimal places.""", Useful
+"int max = findMax(numbers, count);"," ""Find the maximum value in an array of numbers.""", Useful
+"printf(""The maximum value is: %d\n"", max);"," ""Print the maximum value to the console.""", Useful
+"int sum = add(10, 20);"," ""Call the add function with arguments 10 and 20 and store the result in sum.""", Useful
+"printf(""The sum is: %d\n"", sum);"," ""Print the sum value to the console.""", Useful
+"int difference = subtract(50, 30);"," ""Call the subtract function with arguments 50 and 30 and store the result in difference.""", Useful
+"printf(""The difference is: %d\n"", difference);"," ""Print the difference value to the console.""", Useful
+"int product = multiply(5, 6);"," ""Call the multiply", Useful
+int x = 10;," ""Declare an integer variable x and initialize it with 10.""", Useful
+float y = 3.14;," ""Store the value 3.14 in a floating-point variable named y.""", Useful
+char ch = 'A';," ""Initialize the character variable ch with the value 'A'.""", Useful
+"int result = add(5, 7);"," ""Call the add function with arguments 5 and 7 and assign the result to the variable 'result'.""", Useful
+if (x > 0) {," ""Check if x is a positive number.""", Useful
+for (int i = 0; i < 10; i++) {," ""Execute the following code block 10 times.""", Useful
+while (x < 100) {," ""Keep executing the loop until x is less than 100.""", Useful
+int square = x * x;," ""Calculate the square of x and store it in the variable square.""", Useful
+return 0;," ""End the function and return 0 as the result.""", Useful
+int age;," ""Declare a variable to store a person's age.""", Useful
+"scanf(""%d"", &age);"," ""Read an integer input from the user and store it in the variable age.""", Useful
+switch (day) {," ""Evaluate the value of day and jump to the corresponding case.""", Useful
+case 1:," ""Check if the value of 'day' is 1.""", Useful
+default:," ""Execute this block of code if no other cases match.""", Useful
+int max = (a > b) ? a : b;," ""Check which value between 'a' and 'b' is greater and assign it to 'max'.""", Useful
+int sum = 0;," ""Declare a variable named sum and initialize it with 0.""", Useful
+sum += num;," ""Add the value of num to the sum.""", Useful
+const int SIZE = 10;," ""Declare a constant integer named SIZE with the value 10.""", Useful
+for (int i = 0; i < SIZE; i++) {," ""Loop through an array with a size of SIZE.""", Useful
+int temp = array[i];," ""Retrieve the element at index i from the array and store it in temp.""", Useful
+"printf(""Element %d: %d\n"", i, temp);"," ""Print the value of the element at index i along with its index.""", Useful
+int factorial = 1;," ""Declare a variable named factorial and initialize it with 1.""", Useful
+for (int i = 1; i <= num; i++) {," ""Calculate the factorial of num using a loop.""", Useful
+factorial *= i;," ""Multiply the current factorial by the current value of i.""", Useful
+if (remainder == 0) {," ""Check if num is an even number.""", Useful
+} else {," ""Execute this block if num is an odd number.""", Useful
+int randomNumber = rand();," ""Generate a random number and store it in the variable randomNumber.""", Useful
+"int index = binarySearch(array, size, target);"," ""Find the index of the target value in the sorted array using binary search.""", Useful
+if (index != -1) {," ""Check if the target value was found in the array.""", Useful
+"printf(""Target found at index %d"", index);"," ""Print the index where the target value was found.""", Useful
+} else {," ""Execute this block if the target value was not found in the array.""", Useful
+"float average = calculateAverage(numbers, count);"," ""Calculate the average of the numbers in the array.""", Useful
+"printf(""The average is: %.2f\n"", average);"," ""Print the average value with two decimal places.""", Useful
+"int max = findMax(numbers, count);"," ""Find the maximum value in the array.""", Useful
+"int product = multiply(5, 6);"," ""Call the multiply function with arguments 5 and 6 and store the result in product.""", Useful
+int x = getRandomNumber();," ""Call the function getRandomNumber() to get a random integer and store it in x.""", Useful
+double result = calculateSquareRoot(25.0);," ""Call the function calculateSquareRoot(25.0) to find the square root of 25.0 and store it in result.""", Useful
+int length = getStringLength(str);," ""Call the function getStringLength(str) to get the length of the string str and store it in length.""", Useful
+if (isPositive(num)) {," ""Check if the number num is positive using the function isPositive().""", Useful
+"printf(""The number is positive"");"," ""Print 'The number is positive' to the console.""", Useful
+} else {," ""Execute this block if the number num is not positive.""", Useful
+"printf(""The number is not positive"");"," ""Print 'The number is not positive' to the console.""", Useful
+"int power = calculatePower(base, exponent);"," ""Calculate the power of the base raised to the exponent using the function calculatePower() and store it in power.""", Useful
+"int sum = calculateSum(array, size);"," ""Calculate the sum of the elements in the array using the function calculateSum() and store it in sum.""", Useful
+int num = getRandomNumber();," ""Generate a random number using the function getRandomNumber() and store it in the variable num.""", Useful
+int factorial = calculateFactorial(number);," ""Calculate the factorial of the number using the function calculateFactorial() and store it in factorial.""", Useful
+"printf(""The factorial of %d is: %d"", number, factorial);"," ""Print the calculated factorial of the number to the console.""", Useful
+"double average = getAverage(numbers, count);"," ""Calculate the average of the numbers in the array using the function getAverage() and store it in average.""", Useful
+"printf(""The average is: %.2f\n"", average);"," ""Print the calculated average to the console with two decimal places.""", Useful
+"int max = findMaxValue(array, size);"," ""Find the maximum value in the array using the function findMaxValue() and store it in max.""", Useful
+"int gcd = findGCD(a, b);"," ""Find the greatest common divisor of variables a and b using the function findGCD() and store it in gcd.""", Useful
+"printf(""The GCD of %d and %d is: %d\n"", a, b, gcd);"," ""Print the calculated greatest common divisor of a and b to the console.""", Useful
+bool isPalindrome = checkPalindrome(word);," ""Check if the word is a palindrome using the function checkPalindrome() and store the result in the variable isPalindrome.""", Useful
+if (isPalindrome) {," ""Check if the word is a palindrome.""", Useful
+"printf(""The word is a palindrome"");"," ""Print 'The word is a palindrome' to the console.""", Useful
+} else {," ""Execute this block if the word is not a palindrome.""", Useful
+"printf(""The word is not a palindrome"");"," ""Print 'The word is not a palindrome' to the console.""", Useful
+bool isPrime = checkPrime(number);," ""Check if the number is prime using the function checkPrime() and store the result in the variable isPrime.""", Useful
+if (isPrime) {," ""Check if the number is prime.""", Useful
+"printf(""The number is prime"");"," ""Print 'The number is prime' to the console.""", Useful
+} else {," ""Execute this block if the number is not prime.""", Useful
+"printf(""The number is not prime"");"," ""Print 'The number is not prime' to the console.""", Useful
+int reverse = reverseNumber(number);," ""Reverse the digits of the number using the function reverseNumber() and store the result in reverse.""", Useful
+"printf(""The reverse of %d is: %d\n"", number, reverse);"," ""Print the reversed number to the console.""", Useful
+"int sum = addNumbers(10, 20, 30);"," ""Call the function addNumbers(10", Useful
+"printf(""The sum is: %d\n"", sum);"," ""Print the calculated sum to the console.""", Useful
+"int product = multiplyNumbers(5, 2, 3);"," ""Calculate the product of three numbers using the function multiplyNumbers(5", Useful
+"printf(""The product is: %d\n"", product);"," ""Print the calculated product to the console.""", Useful
+"double result = calculateAverage(12.5, 16.8, 20.3);"," ""Calculate the average of three numbers using the function calculateAverage(12.5", Useful
+"printf(""The average is: %.2f\n"", result);"," ""Print the calculated average to the console with two decimal places.""", Useful
+"int difference = subtractNumbers(50, 30, 10);"," ""Subtract three numbers using the function subtractNumbers(50", Useful
+"printf(""The difference is: %d\n"", difference);"," ""Print the calculated difference to the console.""", Useful
+"int quotient = divideNumbers(100, 5, 2);"," ""Divide three numbers using the function divideNumbers(100", Useful
+"printf(""The quotient is: %d\n"", quotient);"," ""Print the calculated quotient to the console.""", Useful
+"int remainder = calculateRemainder(25, 7, 3);"," ""Calculate the remainder of three numbers using the function calculateRemainder(25", Useful
+"printf(""The remainder is: %d\n"", remainder);"," ""Print the calculated remainder to the console.""", Useful
+"bool isEqual = checkEquality(a, b);"," ""Check if variables a and b are equal using the function checkEquality() and store the result in isEqual.""", Useful
+if (isEqual) {," ""Check if a and b are equal.""", Useful
+"printf(""a and b are equal"");"," ""Print 'a and b are equal' to the console.""", Useful
+} else {," ""Execute this block if a and b are not equal.""", Useful
+"printf(""a and b are not equal"");"," ""Print 'a and b are not equal' to the console.""", Useful
+"int gcd = findGCD(a, b);"," ""Find the greatest common divisor of a and b using the function findGCD() and store it in gcd.""", Useful
+"double result = calculatePower(2.5, 3);"," ""Calculate 2.5 raised to the power of 3 using the function calculatePower() and store the result in result.""", Useful
+"printf(""The result is: %.2f\n"", result);"," ""Print the calculated result to the console with two decimal places.""", Useful
+"printf(""The random number is: %d\n"", num);"," ""Print the generated random number to the console.""", Useful
+bool isPositive = checkPositive(num);," ""Check if the number num is positive using the function checkPositive() and store the result in the variable isPositive.""", Useful
+if (isPositive) {," ""Check if the number num is positive.""", Useful
+"int result = performOperation(a, b, c);"," ""Perform an operation on variables a", Useful
+"printf(""The result of the operation is: %d\n"", result);"," ""Print the calculated result of the operation to the console.""", Useful
+bool isEven = checkEven(num);," ""Check if the number num is even using the function checkEven() and store the result in the variable isEven.""", Useful
+if (isEven) {," ""Check if the number num is even.""", Useful
+"printf(""The number is even"");"," ""Print 'The number is even' to the console.""", Useful
+} else {," ""Execute this block if the number num is not even.""", Useful
+"printf(""The number is not even"");"," ""Print 'The number is not even' to the console.""", Useful
+int factorial = calculateFactorial(num);," ""Calculate the factorial of the number using the function calculateFactorial() and store it in factorial.""", Useful
+"printf(""The factorial of %d is: %d\n"", num, factorial);"," ""Print the calculated factorial of the number to the console.""", Useful
+"int sum = calculateSum(a, b, c, d);"," ""Calculate the sum of four numbers using the function calculateSum() and store it in sum.""", Useful
+"int product = calculateProduct(a, b, c, d);"," ""Calculate the product of four numbers using the function calculateProduct() and store it in product.""", Useful
+"double average = calculateAverage(a, b, c, d);"," ""Calculate the average of four numbers using the function calculateAverage() and store it in average.""", Useful
+"int difference = calculateDifference(a, b, c, d);"," ""Calculate the difference between four numbers using the function calculateDifference() and store it in difference.""", Useful
+"int quotient = calculateQuotient(a, b, c, d);"," ""Calculate the quotient of four numbers using the function calculateQuotient() and store it in quotient.""", Useful
+"int remainder = calculateRemainder(a, b, c, d);"," ""Calculate the remainder of four numbers using the function calculateRemainder() and store it in remainder.""", Useful
+int x = getRandomNumber();," ""Generate a random number using the function getRandomNumber() and store it in x.""", Useful
+int y = getRandomNumber();," ""Generate another random number using the function getRandomNumber() and store it in y.""", Useful
+"int sum = addNumbers(x, y);"," ""Add the two random numbers x and y using the function add Numbers() and store the result in sum.""", Useful
+"printf(""The sum of %d and %d is: %d\n"", x, y, sum);"," ""Print the calculated sum of x and y to the console.""", Useful
+"double average = calculateAverage(x, y);"," ""Calculate the average of the two random numbers x and y using the function calculateAverage() and store it in average.""", Useful
+"printf(""The average of %d and %d is: %.2f\n"", x, y, average);"," ""Print the calculated average of x and y to the console with two decimal places.""", Useful
+"int max = findMaxValue(x, y);"," ""Find the maximum value between the two random numbers x and y using the function findMaxValue() and store it in max.""", Useful
+"printf(""The maximum value between %d and %d is: %d\n"", x, y, max);"," ""Print the calculated maximum value between x and y to the console.""", Useful
+"int difference = calculateDifference(x, y);"," ""Calculate the difference between the two random numbers x and y using the function calculateDifference() and store it in difference.""", Useful
+"printf(""The difference between %d and %d is: %d\n"", x, y, difference);"," ""Print the calculated difference between x and y to the console.""", Useful
+"int product = calculateProduct(x, y);"," ""Calculate the product of the two random numbers x and y using the function calculateProduct() and store it in product.""", Useful
+"printf(""The product of %d and %d is: %d\n"", x, y, product);"," ""Print the calculated product of x and y to the console.""", Useful
+"int quotient = calculateQuotient(x, y);"," ""Calculate the quotient of the two random numbers x and y using the function calculateQuotient() and store it in quotient.""", Useful
+"printf(""The quotient of %d and %d is: %d\n"", x, y, quotient);"," ""Print the calculated quotient of x and y to the console.""", Useful
+"int remainder = calculateRemainder(x, y);"," ""Calculate the remainder of dividing the two random numbers x and y using the function calculateRemainder() and store it in remainder.""", Useful
+"printf(""The remainder of dividing %d by %d is: %d\n"", x, y, remainder);"," ""Print the calculated remainder of dividing x by y to the console.""", Useful
+"int gcd = findGCD(x, y);"," ""Find the greatest common divisor of the two random numbers x and y using the function findGCD() and store it in gcd.""", Useful
+"printf(""The GCD of %d and %d is: %d\n"", x, y, gcd);"," ""Print the calculated greatest common divisor of x and y to the console.""", Useful
+bool isEvenX = checkEven(x);," ""Check if the random number x is even using the function checkEven() and store the result in the variable isEvenX.""", Useful
+if (isEvenX) {," ""Check if the random number x is even.""", Useful
+"printf(""The number %d is even"", x);"," ""Print 'The number x is even' to the console.""", Useful
+} else {," ""Execute this block if the random number x is not even.""", Useful
+"printf(""The number %d is not even"", x);"," ""Print 'The number x is not even' to the console.""", Useful
+bool isEvenY = checkEven(y);," ""Check if the random number y is even using the function checkEven() and store the result in the variable isEvenY.""", Useful
+if (isEvenY) {," ""Check if the random number y is even.""", Useful
+"printf(""The number %d is even"", y);"," ""Print 'The number y is even' to the console.""", Useful
+} else {," ""Execute this block if the random number y is not even.""", Useful
+"printf(""The number %d is not even"", y);"," ""Print 'The number y is not even' to the console.""", Useful
+bool isPositiveX = checkPositive(x);," ""Check if the random number x is positive using the function checkPositive() and store the result in the variable isPositiveX.""", Useful
+if (isPositiveX) {," ""Check if the random number x is positive.""", Useful
+"printf(""The number %d is positive"", x);"," ""Print 'The number x is positive' to the console.""", Useful
+} else {," ""Execute this block if the random number x is not positive.""", Useful
+"printf(""The number %d is not positive"", x);"," ""Print 'The number x is not positive' to the console.""", Useful
+bool isPositiveY = checkPositive(y);," ""Check if the random number y is positive using the function checkPositive() and store the result in the variable isPositiveY.""", Useful
+if (isPositiveY) {," ""Check if the random number y is positive.""", Useful
+"printf(""The number %d is positive"", y);"," ""Print 'The number y is positive' to the console.""", Useful
+} else {," ""Execute this block if the random number y is not positive.""", Useful
+"printf(""The number %d is not positive"", y);"," ""Print 'The number y is not positive' to the console.""", Useful
+"int maxOfXandY = findMaxValue(x, y);"," ""Find the maximum value between the random numbers x and y using the function findMaxValue() and store it in maxOfXandY.""", Useful
+"printf(""The maximum value between %d and %d is: %d\n"", x, y, maxOfXandY);"," ""Print the calculated maximum value between x and y to the console.""", Useful
+"int minOfXandY = findMinValue(x, y);"," ""Find the minimum value between the random numbers x and y using the function findMinValue() and store it in minOfXandY.""", Useful
+"printf(""The minimum value between %d and %d is: %d\n"", x, y, minOfXandY);"," ""Print the calculated minimum value between x and y to the console.""", Useful
+int absX = findAbsoluteValue(x);," ""Find the absolute value of the random number x using the function findAbsoluteValue() and store it in absX.""", Useful
+"printf(""The absolute value of %d is: %d\n"", x, absX);"," ""Print the calculated absolute value of x to the console.""", Useful
+int absY = findAbsoluteValue(y);," ""Find the absolute value of the random number y using the function findAbsoluteValue() and store it in absY.""", Useful
+"printf(""The absolute value of %d is: %d\n"", y, absY);"," ""Print the calculated absolute value of y to the console.""", Useful
+bool isPalindromeX = checkPalindrome(x);," ""Check if the random number x is a palindrome using the function checkPalindrome() and store the result in the variable isPalindromeX.""", Useful
+if (isPalindromeX) {," ""Check if the random number x is a palindrome.""", Useful
+"printf(""The number %d is a palindrome"", x);"," ""Print 'The number x is a palindrome' to the console.""", Useful
+} else {," ""Execute this block if the random number x is not a palindrome.""", Useful
+"printf(""The number %d is not a palindrome"", x);"," ""Print 'The number x is not a palindrome' to the console.""", Useful
+bool isPalindromeY = checkPalindrome(y);," ""Check if the random number y is a palindrome using the function checkPalindrome() and store the result in the variable isPalindromeY.""", Useful
+if (isPalindromeY) {," ""Check if the random number y is a palindrome.""", Useful
+"printf(""The number %d is a palindrome"", y);"," ""Print 'The number y is a palindrome' to the console.""", Useful
+} else {," ""Execute this block if the random number y is not a palindrome.""", Useful
+"printf(""The number %d is not a palindrome"", y);"," ""Print 'The number y is not a palindrome' to the console.""", Useful
+int sumOfDigitsX = findSumOfDigits(x);," ""Find the sum of digits of the random number x using the function findSumOfDigits() and store it in sumOfDigitsX.""", Useful
+"printf(""The sum of digits of %d is: %d\n"", x, sumOfDigitsX);"," ""Print the calculated sum of digits of x to the console.""", Useful
+int sumOfDigitsY = findSumOfDigits(y);," ""Find the sum of digits of the random number y using the function findSumOfDigits() and store it in sumOfDigitsY.""", Useful
+"printf(""The sum of digits of %d is: %d\n"", y, sumOfDigitsY);"," ""Print the calculated sum of digits of y to the console.""", Useful
+bool isArmstrongX = checkArmstrong(x);," ""Check if the random number x is an Armstrong number using the function checkArmstrong() and store the result in the variable isArmstrongX.""", Useful
+if (isArmstrongX) {," ""Check if the random number x is an Armstrong number.""", Useful
+"printf(""The number %d is an Armstrong number"", x);"," ""Print 'The number x is an Armstrong number' to the console.""", Useful
+} else {," ""Execute this block if the random number x is not an Armstrong number.""", Useful
+"printf(""The number %d is not an Armstrong number"", x);"," ""Print 'The number x is not an Armstrong number' to the console.""", Useful
+bool isArmstrongY = checkArmstrong(y);," ""Check if the random number y is an Armstrong number using the function checkArmstrong() and store the result in the variable isArmstrongY.""", Useful
+if (isArmstrongY) {," ""Check if the random number y is an Armstrong number.""", Useful
+"printf(""The number %d is an Armstrong number"", y);"," ""Print 'The number y is an Armstrong number' to the console.""", Useful
+} else {," ""Execute this block if the random number y is not an Armstrong number.""", Useful
+"printf(""The number %d is not an Armstrong number"", y);"," ""Print 'The number y is not an Armstrong number' to the console.""", Useful
+bool isPrimeX = checkPrime(x);," ""Check if the random number x is a prime number using the function checkPrime() and store the result in the variable isPrimeX.""", Useful
+if (isPrimeX) {," ""Check if the random number x is a prime number.""", Useful
+"printf(""The number %d is a prime number"", x);"," ""Print 'The number x is a prime number' to the console.""", Useful
+} else {," ""Execute this block if the random number x is not a prime number.""", Useful
+"printf(""The number %d is not a prime number"", x);"," ""Print 'The number x is not a prime number' to the console.""", Useful
+bool isPrimeY = checkPrime(y);," ""Check if the random number y is a prime number using the function checkPrime() and store the result in the variable isPrimeY.""", Useful
+if (isPrimeY) {," ""Check if the random number y is a prime number.""", Useful
+"printf(""The number %d is a prime number"", y);"," ""Print 'The number y is a prime number' to the console.""", Useful
+} else {," ""Execute this block if the random number y is not a prime number.""", Useful
+"printf(""The number %d is not a prime number"", y);"," ""Print 'The number y is not a prime number' to the console.""", Useful
+bool isPerfectX = checkPerfect(x);," ""Check if the random number x is a perfect number using the function checkPerfect() and store the result in the variable isPerfectX.""", Useful
+if (isPerfectX) {," ""Check if the random number x is a perfect number.""", Useful
