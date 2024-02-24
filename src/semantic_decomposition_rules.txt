@@ -1,0 +1,17 @@
+Rule 1: The smallest individual unit of a program is called a token.
+Rule 2: Tokens are either keywords, identifiers or variables.
+Rule 3: A keyword must belong to the list: auto, double, int, struct, break, else, long, switch, case, enum, register, typedef, char, extern, return, union, const, float, short, unsigned, continue, for, signed, void, default, goto, sizeof, volatile, do, if, static, while.
+Rule 4: An identifier can only have alphanumeric characters(a-z , A-Z , 0-9) and underscore(_).
+Rule 5: The first character of an identifier can only contain alphabet(a-z, A-Z) or underscore (_).
+Rule 6: Identifiers are case-sensitive in the C language. For example, name and Name will be treated as two different identifiers.
+Rule 7: Keywords are not allowed to be used as Identifiers.
+Rule 8: No special characters, such as a semicolon, period, whitespaces, slash, or comma are permitted to be used in or as an Identifier. Example of valid identifiers: total, avg1, difference_1. Example of invalid identifiers: $myvar, x!y.
+Rule 9: A variable has a data type (which can be one of the following: char, int, float, double, void), a name and a value.
+Rule 10: A variable should be declared and assigned a value. Example: int marks = 10.
+Rule 11: After creation and assignment, the value of a variable can be changed.
+Rule 12: A valid line of code is a collection of tokens that adhere to the above rules.
+Rule 13: Comments are plain simple text in English that can be added to a line of code.
+Rule 14: A comment explains various parts of the line of code, makes it more readable and more understandable.
+Rule 15: A comment either begins with // if it is a single-line comment or is enclosed within /* and */ if it is a multi-line comment.
+Rule 16: Comments can be either labeled Useful or Not Useful.
+Rule 17: A comment is labeled Useful when it is informative and helps clarify the line of code without being redundant, otherwise, it is labeled Not Useful.
